@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=No Extensions
+Exec=/usr/bin/google-chrome-stable --profile-directory=Default --disable-extensions
+Terminal=false
+Icon=google-chrome
+Type=Application
+

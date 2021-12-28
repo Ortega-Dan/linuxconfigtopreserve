@@ -1,0 +1,7 @@
+[Contractor Entry]
+Name=Open in Terminal
+Icon=terminal
+Description=Open in Terminal
+MimeType=inode;application/x-sh;application/x-executable;
+Exec=gnome-terminal --working-directory=%U
+Gettext-Domain=gnome-terminal

@@ -1,0 +1,50 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+
+# Change the name here to apply changes, otherwise Gnome will not allways ...
+# ... apply all the changes Specially the additional launchers/actions
+Name=xFree RDP
+
+Exec=/home/danort/azure f localvm
+# Icon=/home/danort/.maownstuff/winserver2.png
+Icon=/usr/share/icons/hicolor/scalable/apps/org.remmina.Remmina.svg
+
+# Optional actions (right click options)
+Actions=launch1;launch2;launchNew;launchNewMulti;launchDataFile;launchDataFileMulti;launchDataFileDB
+#;localvm
+
+[Desktop Action launch1]
+Name=Main Azure
+Exec=/home/danort/azure f main
+
+[Desktop Action launch2]
+Name=Main Azure Multimonitor
+Exec=/home/danort/azure m main
+
+[Desktop Action launchNew]
+Name=2019.1
+Exec=/home/danort/azure f 2019
+
+[Desktop Action launchNewMulti]
+Name=2019.1 Multimonitor
+Exec=/home/danort/azure m 2019
+
+[Desktop Action launchDataFile]
+Name=DataFile
+Exec=/home/danort/azure f datafile
+
+[Desktop Action launchDataFileMulti]
+Name=DataFile Multimonitor
+Exec=/home/danort/azure m datafile
+
+[Desktop Action launchDataFileDB]
+Name=DataFile DB
+Exec=/home/danort/azure f datafiledb
+
+#[Desktop Action localvm]
+#Name=Local VM
+#Exec=/home/danort/azure f localvm
+
+

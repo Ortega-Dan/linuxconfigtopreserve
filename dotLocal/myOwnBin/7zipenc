@@ -1,0 +1,3 @@
+#! /bin/bash
+echo "How to do it: "
+echo "7z a -p -mx=9 -mhe -t7z [zipFileName.7z] [directoriesAndFiles ...]"

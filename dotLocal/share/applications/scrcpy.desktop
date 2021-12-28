@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Android Mirror
+Exec=scrcpy
+Path=/home/danort/Downloads
+Icon=/home/danort/.local/localLogos/Android_logo_2019_(stacked).png

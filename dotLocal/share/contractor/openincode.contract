@@ -1,0 +1,7 @@
+[Contractor Entry]
+Name=Open in Code
+Icon=codiecode
+Description=Open in Code
+MimeType=inode;application/x-sh;
+Exec=code %U
+Gettext-Domain=code
