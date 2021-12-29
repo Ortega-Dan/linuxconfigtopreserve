@@ -1,0 +1,7 @@
+copy the /etc/vim/vimrc file into ~/.vimrc
+and add the following 3 properties at the end of the new file
+
+
+set number
+set nobackup
+set noundofile  
