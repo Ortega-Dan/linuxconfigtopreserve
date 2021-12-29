@@ -1,0 +1,18 @@
+org.gnome.settings-daemon.plugins.media-keys	window-screenshot-clip	['<Ctrl><Alt>Print']
+org.gnome.settings-daemon.plugins.media-keys	area-screenshot-clip	['<Ctrl><Shift>Print']
+org.gnome.settings-daemon.plugins.media-keys	window-screenshot	['<Alt>Print']
+org.gnome.settings-daemon.plugins.media-keys	screenshot-clip	['<Ctrl>Print']
+org.gnome.settings-daemon.plugins.media-keys	area-screenshot	['<Shift>Print']
+custom	'FlameShot'	'flameshot gui'	'Print'
+custom	'Poweroff'	'gnome-session-quit --power-off'	'<Shift><Alt>dollar'
+custom	'XsetLenOn'	'xset led on'	'<Shift><Alt>l'
+custom	'XsetLedOff'	'xset led off'	'<Shift><Alt>o'
+custom	'Volume Down'	'volume-change decrease 6'	'<Alt>Page_Down'
+custom	'Volume Up'	'volume-change increase 6'	'<Alt>Page_Up'
+custom	'PlayerBack'	'playerctl previous'	'<Alt>F11'
+custom	'PlayerNext'	'playerctl next'	'<Alt>F12'
+custom	'PlayerPause'	'playerctl play-pause'	'<Alt>F9'
+custom	'Screens: One'	'autorandr one'	'<Shift><Alt>KP_End'
+custom	'Screens: Two'	'autorandr two'	'<Shift><Alt>KP_Down'
+custom	'Screens: Three'	'autorandr three'	'<Shift><Alt>KP_Next'
+custom	'Screens: Four'	'autorandr four'	'<Shift><Alt>KP_Left'
