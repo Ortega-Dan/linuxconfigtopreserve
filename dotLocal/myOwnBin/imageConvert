@@ -1,0 +1,2 @@
+#! /bin/bash
+gm convert -density 300 -resample 300 -resize "3000>" $1 $2
