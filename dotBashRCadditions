@@ -1,0 +1,11 @@
+# ...
+
+
+# avoiding home as terminal starting directory
+if [ "$PWD" == "$HOME" ]; then cd Downloads; fi
+
+# path inclusions
+export PATH=/home/danort/.local/myOwnBin:$PATH
+
+alias ll='ls -lahF'
+alias open='xdg-open'
