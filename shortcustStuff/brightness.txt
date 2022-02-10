@@ -1,0 +1,2 @@
+custom	'BrightnessUp'	'gdbus call --session --dest org.gnome.SettingsDaemon.Power --object-path /org/gnome/SettingsDaemon/Power --method org.gnome.SettingsDaemon.Power.Screen.StepUp'	'<Alt>Page_Up'
+custom	'BrightnessDown'	'gdbus call --session --dest org.gnome.SettingsDaemon.Power --object-path /org/gnome/SettingsDaemon/Power --method org.gnome.SettingsDaemon.Power.Screen.StepDown'	'<Alt>Page_Down'
