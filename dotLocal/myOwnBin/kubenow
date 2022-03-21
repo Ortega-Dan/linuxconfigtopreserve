@@ -1,0 +1,3 @@
+#! /bin/bash
+kubectl config view --minify -o yaml|grep current-context
+kubectl config view --minify -o yaml|grep namespace
